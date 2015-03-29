@@ -62,6 +62,7 @@ end
 run_once("unclutter")
 run_once("fcitx")
 run_once("dropbox")
+run_once("redshift")
 run_once("python ~/local/goagent/local/proxy.py")
 run_once("xscreensaver -no-splash")
 -- }}}
