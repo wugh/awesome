@@ -250,6 +250,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Control" }, "m",         APW.ToggleMute),
     -- Lock screen
     awful.key({ modkey, "Control" }, "l", function () awful.util.spawn("xscreensaver-command -lock") end),
+    -- Copy to clipboard
+    awful.key({ modkey }, "c", function () os.execute("xsel -p -o | xsel -i -b") end),
 
     -- Default client focus
     awful.key({ altkey }, "k",
