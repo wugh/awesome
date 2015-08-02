@@ -65,6 +65,7 @@ run_once("dropbox")
 run_once("redshift")
 run_once("python ~/local/goagent/local/proxy.py")
 run_once("xscreensaver -no-splash")
+run_once("spacefm -d")
 -- }}}
 
 -- Default modkey.
